@@ -1,0 +1,12 @@
+/Cocos-Creator-API.json
+/declarations
+
+.turbo
+.idea
+.history
+.DS_Store
+
+node_modules
+npm-debug.log
+/typedoc-plugin/lib/
+
