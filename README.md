@@ -22,6 +22,6 @@ $ npm run build
 $ npm run test
 ```
 
-## Apply URL Patch
+## Apply URL Patch for typedoc
 
 Since the default generated json file doesn't contain the url of source file, run `npm run apply-patch` to enable it.
