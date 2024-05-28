@@ -17,7 +17,7 @@ interface CategoryConfig {
 }
 
 export function load (app: Application) {
-    const engineRoot = process.cwd();
+    const engineRoot = process.env.ENGINE_ROOT ?? process.cwd();
 
     app.converter.on(Converter.EVENT_CREATE_DECLARATION, onCreateReflection);
 
