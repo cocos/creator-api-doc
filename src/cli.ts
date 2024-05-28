@@ -40,8 +40,8 @@ async function generateDoc({
         process.exit(-6);
     }
 
-    await app.generateDocs(projectReflection, outputFilePath);
-    // await app.generateJson(projectReflection, outputFilePath);
+    // await app.generateDocs(projectReflection, outputFilePath);
+    await app.generateJson(projectReflection, outputFilePath);
 
     return true;
 }
@@ -103,8 +103,8 @@ async function main() {
         entryFileName: 'typedoc-index.ts',
         outputFilePath: options.output
     });
+
+    console.info(`==> DONE`);
 }
 
-(async ()=> await main())();
-
-console.info(`==> DONE`);
+main();
