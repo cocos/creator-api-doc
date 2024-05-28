@@ -1,0 +1,10 @@
+--- source-reference.js	2024-05-28 14:11:48
++++ source-reference.js	2024-05-28 13:49:46
+@@ -13,6 +13,7 @@
+     toObject({ sourceReference: ref }, obj) {
+         return {
+             ...obj,
++            url: ref.url,
+             fileName: ref.fileName,
+             line: ref.line,
+             character: ref.character,

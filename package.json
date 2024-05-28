@@ -5,7 +5,7 @@
   "main": "lib/index.js",
   "scripts": {
     "build": "tsc",
-    "postinstall": "npm run build",
+    "postinstall": "npm run build && ./scripts/apply-patch.sh",
     "test": "jest"
   },
   "author": "",
