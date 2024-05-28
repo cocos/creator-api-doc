@@ -88,7 +88,6 @@ Object {
           "character": 13,
           "fileName": "fix-type-arguments.ts",
           "line": 1,
-          "url": "https://github.com/dumganhar/creator-api-doc/blob/6cb921a/test/inputs/link/fix-type-arguments.ts#L1",
         },
       ],
       "type": undefined,
@@ -188,7 +187,6 @@ Object {
           "character": 16,
           "fileName": "fix-type-arguments.ts",
           "line": 3,
-          "url": "https://github.com/dumganhar/creator-api-doc/blob/6cb921a/test/inputs/link/fix-type-arguments.ts#L3",
         },
       ],
       "type": undefined,
@@ -225,7 +223,6 @@ Object {
       "character": 0,
       "fileName": "fix-type-arguments.ts",
       "line": 1,
-      "url": "https://github.com/dumganhar/creator-api-doc/blob/6cb921a/test/inputs/link/fix-type-arguments.ts#L1",
     },
   ],
 }

@@ -88,7 +88,6 @@ Object {
           "character": 13,
           "fileName": "engine-internal.ts",
           "line": 6,
-          "url": "https://github.com/dumganhar/creator-api-doc/blob/6cb921a/test/inputs/link/engine-internal.ts#L6",
         },
       ],
       "type": undefined,
@@ -121,7 +120,6 @@ Object {
           "character": 17,
           "fileName": "engine-internal.ts",
           "line": 55,
-          "url": "https://github.com/dumganhar/creator-api-doc/blob/6cb921a/test/inputs/link/engine-internal.ts#L55",
         },
       ],
       "type": undefined,
@@ -156,7 +154,6 @@ Object {
           "character": 13,
           "fileName": "engine-internal.ts",
           "line": 38,
-          "url": "https://github.com/dumganhar/creator-api-doc/blob/6cb921a/test/inputs/link/engine-internal.ts#L38",
         },
       ],
       "type": Object {
@@ -266,7 +263,6 @@ Object {
       "character": 0,
       "fileName": "engine-internal.ts",
       "line": 4,
-      "url": "https://github.com/dumganhar/creator-api-doc/blob/6cb921a/test/inputs/link/engine-internal.ts#L4",
     },
   ],
 }
