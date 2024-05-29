@@ -9,17 +9,17 @@ compare_version="$1"
 # Remove the leading 'v' if it exists
 compare_version=$(echo "$compare_version" | sed 's/^v//')
 
-echo "compare_version: ${compare_version}"
+# echo "compare_version: ${compare_version}"
 
 # Function to execute if the version is less than the given version
 function do_something {
-  echo "Executing task for version less than $version"
-  exit 1
+  echo "IS_LESS=1"
+  exit 0
 }
 
 # Function to execute if the version is not less than the given version
 function do_something_else {
-  echo "Executing task for version not less than $version"
+  echo "IS_LESS=0"
   exit 0
 }
 
