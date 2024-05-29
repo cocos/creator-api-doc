@@ -26,7 +26,7 @@ const queryPackageLockFile = () => {
 // 获取网上对应的依赖的信息
 const fetchNpmPackageInfo = async (name, version) => {
   const result = await fetch(
-    `https://registry.npmmirror.com/${name}/${version}`,
+    `https://registry.npmjs.com/${name}/${version}`,
   );
   if (result.status === 200) {
     const data = await result.json();
