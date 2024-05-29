@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Given version
-version="3.8.4"
+version="$2"
 
 # Version to compare
 compare_version="$1"
