@@ -6,6 +6,11 @@ version="3.8.3"
 # Version to compare
 compare_version="$1"
 
+# Remove the leading 'v' if it exists
+compare_version=$(echo "$compare_version" | sed 's/^v//')
+
+echo "compare_version: ${compare_version}"
+
 # Function to execute if the version is less than the given version
 function do_something {
   echo "Executing task for version less than $version"
